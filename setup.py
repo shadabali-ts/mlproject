@@ -36,7 +36,7 @@ def get_requirements(file_path):
         return [req.strip() for req in file if req.strip() and req.strip() != '-e .']
 
 setup(
-    name="data_science_project",
+    name="MLproject",
     version="0.0.1",
     author="shadab",
     author_email="shadab@tamarsoftware.in",
